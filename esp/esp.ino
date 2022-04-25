@@ -71,7 +71,7 @@ void setup() {
   Particle.function("reset", resetDevice);
   Particle.function("fillMonitor", fillMonitor);
     Particle.variable("gallonsDown", gallonsDown);
-    Particle.variable("values", valuesString);
+//    Particle.variable("values", valuesString);
   Particle.variable("timeFilled", timeFilled);
   pinMode(D7, OUTPUT);
   digitalWrite(D7, HIGH);
